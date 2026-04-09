@@ -5,7 +5,7 @@ public class Task24 {
         int result = centeredAverage(array);
         System.out.println( result);
     }
-    }
+
 
     public static int centeredAverage(int[] nums) {
 
@@ -27,9 +27,10 @@ public class Task24 {
 
         sum = sum - min - max;
 
-        int average = sum / (nums.length - 2);
+        return  sum / (nums.length - 2);
 
-        return average;
+
     }
 
+}
 
